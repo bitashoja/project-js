@@ -1,0 +1,122 @@
+[
+  {
+    "id":0,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i7",
+    "screenSize": "14",
+    "img" : "../image/3.png",
+    "price": 23,
+   "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":28,
+   "color":"block" 
+},
+  {
+    "id":1,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i7",
+    "screenSize": "13.3",
+    "img" : "../image/2.png",
+    "price": 22,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":29,
+   "color":"red"
+  },
+  {
+    "id":2,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i5",
+    "screenSize": "15.6",
+    "img" : "../image/5.png",
+    "price": 23,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":28,
+   "color":"white"
+  },
+  {
+    "id":3,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i5",
+    "screenSize": "17.3",
+    "img" : "../image/2.png",
+    "price": 24,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":29,
+   "color":"white"
+  },
+   {
+    "id":4,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i3",
+    "screenSize": "14",
+    "img" : "../image/5.png",
+    "price": 18,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":31,
+   "color":"yellow"
+  },
+   {
+    "id":5,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i3",
+    "screenSize": "15.6",
+    "img" : "../image/3.png",
+    "price": 22,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":29,
+   "color":"block"
+  },
+  {
+    "id":6,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i7",
+    "screenSize": "14",
+    "img" : "../image/3.png",
+    "price": 21.03,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":20.02,
+   "color":"white"
+  },
+  {
+    "id":7,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i7",
+    "screenSize": "13.3",
+    "img" : "../image/2.png",
+    "price": 21.03,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":25.02,
+   "color":"white"
+  },
+  {
+    "id":8,
+    "name": "Alienware M15 R3 Gaming",
+    "cpu": "cor i5",
+    "screenSize": "15.6",
+    "img" : "../image/4.png",
+    "price": 21.03, 
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":28.02,
+   "color":"white"
+  },
+  {
+    "id":9,
+    "name": "iphone",
+    "cpu": "cor i5",
+    "screenSize": "15.6",
+    "img" : "../image/mobile-blue.png",
+    "price": 22.03,
+    "star1":"../image/star.svg",
+   "star2":"../image/star_border.svg",
+   "del":27.02,
+   "color":"white"
+  }
+]

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/style2.css" />
+  <title>shopp</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <img src="/image/yaralogo%201.svg" class="logo" />
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <ul>
+            <li><a href="/index3.html" class="active">TUXEDO</a></li>
+            <li><a href="/index3.html">LINGERIE</a></li>
+            <li><a href="/index3.html">SUMMER SHOP</a></li>
+            <li><a href="/index3.html">BRANDS</a></li>
+            <li><a href="/index3.html">SALE</a></li>
+          </ul>
+        </nav>
+        <div class="header-mobile">
+          <img src="/image/yaralogo%201.svg" class="header-mobile-logo" />
+        </div>
+        <div class="icone">
+          <img src="/image/search.png" class="icone-img" />
+          <img src="/image/Vector%20(1).png" class="icone-img" id="icone-buy" />
+          <img src="/image/person_outline.png" class="icone-img" id="icone-person" />
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <main>
+      <section class="box-left">
+        <div class="categories">
+          <h4>CATEGORIES</h4>
+          <ul class="list-categories">
+            <li><input type="checkbox">Mobile</input></li>
+            <li><input type="checkbox">Laptop</input></li>
+            <li><input type="checkbox">Mobile Accessory</input></li>
+            <li><input type="checkbox">Monitor</input></li>
+            <li><input type="checkbox">Printer</input></li>
+          </ul>
+          <br>
+          <br>
+          <span class="list-categories-span">More<img src="/image/Vector.svg" /></span>
+        </div>
+        <div class="color">
+          <h4>COLOR</h4>
+          <div class="color-row1">
+            <div class="green"></div>
+            <div class="red"></div>
+            <div class="blue"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+          </div>
+          <div class="color-row2">
+            <div class="blue-green"></div>
+            <div class="gray"></div>
+            <div class="orange"></div>
+            <div class="dark-blue"></div>
+            <div class="yellow"></div>
+          </div>
+        </div>
+        <div class="priceslider">
+          <h4>PRICE</h4>
+          <div class="min-max">
+            <div class="min">
+              <span id="min-value"></span>
+            </div>
+            <div class="max">
+              <span id="max-value"></span>
+            </div>
+          </div>
+          <div class="min-max-range">
+            <input type="range" min="0" max="5000" value="400" class="range" id="min">
+            <input type="range" min="1000" max="10000" value="1000" class="range" id="max">
+          </div>
+          <div style="clear: both;"></div>
+        </div>
+        <div class="Screen-Size">
+          <h4>Screen Size</h4>
+          <ul class="list-Screen-Size">
+            <li>
+              <input name="13" type="checkbox" id="checkBox13" value="13" onclick="checkBox13Handler()">
+              <label for="13">13.3</label>
+            </li>
+            <li>
+              <input name="14" type="checkbox" id="checkBox14" value="14"/>
+              <label for="14">14</label>
+            </li>
+            <li>
+              <input name="15" type="checkbox" id="checkBox15" value="15"/>
+              <label for="15">15.6</label>
+            </li><li>
+              <input name="17" type="checkbox" id="checkBox17" value="17"/>
+              <label for="17">17.3</label></li>
+          </ul>
+        </div>
+        <diLoading class="cpu">
+          <h4>CPU</h4>
+          <ul class="list-cpu">
+            <li><input type="checkbox">Core i7</input></li>
+            <li><input type="checkbox">Core i5</input></li>
+            <li><input type="checkbox">Core i3</input></li>
+          </ul>
+        </diLoading module from “http://127.0.0.1:5501/data.json” was blocked because of a disallowed MIME typev>
+      </section>
+      <section class="box-right">
+        <div class="header-box-right">
+          <p class="Home-Product">Home/Product</p>
+          <div class="header-box-right-price">
+            <img src="/image/filter_alt%20(1).svg" class="filter">
+            <select class="header-box-right-price-img" default="Sort By:">
+              <option  class="header-box-right-price-img" value="low">Sort By: low price</option>
+              <option  class="header-box-right-price-img" value="low">Sort By: high price</option>
+           </select>
+          </div>
+        </div>
+        <div class="box-price-row" id="product-list">
+        
+          </div> 
+      </section>
+    </main>
+  </div>
+  <script type="module" src="/js/script2.js"> </script>
+</body>
+</html>
