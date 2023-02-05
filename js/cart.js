@@ -18,7 +18,7 @@ document.getElementById("product-list").innerHTML = userBasket
   .map((item) => {
     console.log("object");
     return `  <div class="main-box-shop">
-                  div class="main-box-header">YOUR CART</div>
+                  <div class="main-box-header">YOUR CART</div>
             <div class="main-box">
               <div class="main-img">
                 <img src="${item.img}" alt="labtop"
